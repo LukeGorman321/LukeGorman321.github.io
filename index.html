@@ -8,7 +8,8 @@
 		<hr>
 		<main>
 			<article>
-				<a href="https://exanite.itch.io/mad-lad-in-a-mad-lab" target="_blank"><h2>Mad Lad in a Mad Lab</h2></a>
+				<h2>Mad Lad in a Mad Lab</h2>
+				<h4>Unity/C#, November 2024</h4>
 				<video controls>
 					  <source src="vid1.mp4" type="video/mp4">
 					Your browser does not support the video tag.
@@ -16,23 +17,28 @@
 				<h3>Fire Spread</h3>
 				<p>The feature I implemented which is displayed here is the fire's ability to spread faster onto wooden objects. 
 				<br><br>This allows the player to control the spread of the fire by moving wooden crates and barrels where they want the fire to spread
-				<br><br>One difficulty in creating this was that due to the random nature of the fire's spread, it was not always clear if an adjustment to the code helped make the fire spread in the intended manner. So, I put the settings very high to make the fire spread comically onto wooden things, that way I could clearly see and easily test the algorithm.</p>
+				<br><br>One difficulty in creating this was that due to the random nature of the fire's spread, it was not always clear if an adjustment to the code helped make the fire spread in the intended manner. So, I put the settings very high to make the fire spread comically quickly onto wooden things, that way I could clearly see and easily test the algorithm.</p>
+				<a href="https://exanite.itch.io/mad-lad-in-a-mad-lab" target="_blank"><u><p>Full Demo</p></u></a>
+				<p>Source Code available upon request</p>
 			</article>
 			<hr>
 			<article>
 				<h2>Minecraft Minigames using Datapacks</h2>
+				<h4>MCFunction, December 2023</h4>
 				<video controls>
 					  <source src="vid2.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 				<h3>Candy Cane Catapult</h3>
 				<p>One minigame I made in Minecraft had a very large map, which was intended to make the game slightly slow, forcing players to manage their resources carefully. <br><br>
-				However, this created a problem, since the game ended up going much slower than intended. So, I moved bases closer together, but this still wasn't enough <br><br>
-				So, I added items that help the player go faster, but it was still too slow. Finally, I created a slightly more fun solution, which was a catapult which could launch the player to the center of the map instantly, making it much faster to get around.</p>
+				However, this created a problem, since the game ended up going much slower than intended. So, I decided to create a catapult to launch players to the center of the map. <br><br>
+				After trying multiple methods of launching the player and fine-tuning the strength of the launch vector, I eventually was able to get it to land where I wanted it.</p>
+				<p>Source Code available upon request</p>
 			</article>
 			<hr>
 			<article>
 				<h2>Mafia+</h2>
+				<h4>Godot/GDScript, October-November 2024</h4>
 				<video controls>
 					  <source src="vid3.mp4" type="video/mp4">
 					Your browser does not support the video tag.
@@ -41,8 +47,9 @@
 				<p>One game I created involves people on several devices connecting over the internet. <br><br>
 				Since I had never done something like this before, I first created a simple counter where whenever one person clicks the increment button, the number goes up on both screens <br><br>
 				There were several challenges with this, but by doing this simple task, I learned how to navigate networking for the rest of the project. <br><br>
-				For example, one challenge was that the information was all stored on the host's side, so whenever the person who wasn't the host tried to increment the number, it would just get overridden by what the host already had. <br><br>
-				So, rather than just storing a single variable where the total increment is stored, I also stored information to say when a particular person was pressing the button, which was fed in by each player. Then, the host would see this, and increment the count accordingly.</p>
+				For example, one challenge was that the information was all stored on the host's device, so whenever the client tried to increment the number, it would just get overridden by the host's value.<br><br>
+				So, rather than just storing a single variable where the total increment is stored, I also stored information to say when a particular person was pressing the button, which was sent in by each player. Then, the host device would collect this data, and increment the count accordingly.</p>
+				<p>Source Code available upon request</p>
 			</article>
 		</main>
 	</body>
