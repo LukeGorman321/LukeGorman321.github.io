@@ -8,6 +8,20 @@
 		<hr>
 		<main>
 			<article>
+				<h2>Echo</h2>
+				<video controls>
+					  <source src="vid4.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<h3>Distortion Visual Effects</h3>
+				<p> One of the things I implemented in Echo was the visual effects, including that of the enemies.
+				<br><br>I had a clear idea of what I wanted, and I tried several methods to achieve that.
+				<br><br>The first thing I tried was creating a second layer of the level and having the enemies be a viewport into that layer, just offset a bit. Unfortunately, this required us to have to duplicates of the map, would not work on objects that may move, and I didn't have as much control as I would want.
+				<br><br>I then did some research on shaders, and after a few iterations I was able to create an effect I was happy with. I used a noise generator and scrolled around in the noise to warp the background around the distortion. Then, I made the distortion more transparent the further from the center it was to create a circle with no hard boundary.</p>
+				<a href="https://itch.io/jam/devilup-horror-jam-25" target="_blank"><u><p>Full Demo</p></u></a>
+				<a href="https://github.com/LukeGorman321/devilup-game-jam-2025" target="_blank"><u><p>Source Code</p></u></a>
+			</article>
+			<article>
 				<h2>Mad Lad in a Mad Lab</h2>
 				<video controls>
 					  <source src="vid1.mp4" type="video/mp4">
@@ -21,7 +35,7 @@
 				<a href="https://github.com/Exanite/MadLadInAMadLab" target="_blank"><u><p>Source Code</p></u></a>
 			</article>
 			<hr>
-			<article>
+			<!--article>
 				<h2>Minecraft Minigames using Datapacks</h2>
 				<video controls>
 					  <source src="vid2.mp4" type="video/mp4">
@@ -33,7 +47,7 @@
 				After trying multiple methods of launching the player and fine-tuning the strength of the launch vector, I eventually was able to get it to land where I wanted it.</p>
 				<p>Source Code available upon request</p>
 			</article>
-			<hr>
+			<hr-->
 			<article>
 				<h2>Mafia+</h2>
 				<video controls>
